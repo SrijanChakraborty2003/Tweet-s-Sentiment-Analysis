@@ -1,7 +1,7 @@
 import streamlit as st
 import joblib
 svm_model = joblib.load("svm_model.pkl")
-vectorizer = joblib.load("tfidf_vectorizer.pkl")
+vectorizer = joblib.load("tfidf_vectorizer (1).pkl")
 st.title("📊 Twitter Sentiment Analysis")
 st.write("Analyze the sentiment of a tweet using an SVM model.")
 user_input = st.text_area("Enter a tweet:")
